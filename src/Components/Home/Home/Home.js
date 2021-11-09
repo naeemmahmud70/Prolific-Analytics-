@@ -4,7 +4,7 @@ import myImage from '../../../images/naeem.png'
 
 const Home = () => {
     return (
-        <section className="row bg-light p-5">
+        <section className="row bg-light p-5 height">
             <div className="col-md-4 text-center">
                 <div>
                     <img className="rounded-circle" src={myImage} alt="" />

@@ -11,7 +11,7 @@ import PageNotFound from "./Components/PageNotFound/PageNotFound";
 import Search from "./Components/Search/Search";
 import MyForm from "./Components/MyForm/MyForm";
 import Info from "./Components/Info/Info";
-import Bonus from "./Components/Bonus/Bonus";
+import Menu from './Components/Menu/Menu'
 import Navbar from "./Components/Home/Navbar/Navbar";
 
 
@@ -25,7 +25,7 @@ function App() {
         <Route path="/search" element={<Search />} />
         <Route path="/form" element={<MyForm />} />
         <Route path="/info" element={<Info />} />
-        <Route path="/bonus" element={<Bonus />} />
+        <Route path="/bonus" element={< Menu />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </Router>

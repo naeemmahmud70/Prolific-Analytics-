@@ -5,6 +5,7 @@ const Navbar = () => {
     return (
         <nav class="navbar navbar-expand-lg navbar-light sticky-top t-0 bg-dark">
             <div class="container-fluid">
+                <h3 className="text-white px-3">Prolific Analytics</h3>
                 <button class="navbar-toggler toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
