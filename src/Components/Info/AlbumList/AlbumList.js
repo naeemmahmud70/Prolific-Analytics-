@@ -8,7 +8,8 @@ const AlbumList = () => {
         fetch('https://jsonplaceholder.typicode.com/albums')
             .then(res => res.json())
             .then(data => setAlbumLists(data))
-    }, [])
+    }, []);
+    
     return (
         <div>
             <h1>Album List</h1>

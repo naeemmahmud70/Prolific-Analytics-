@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 const Search = () => {
 
     const [name, setName] = useState({ name: '' })
-    console.log(name)
 
     const handleBlur = (e) => {
         const newName = { ...name };
