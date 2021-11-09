@@ -1,10 +1,17 @@
 import React from 'react';
+import AlbumList from './AlbumList/AlbumList';
+import UserList from './UserList/UserList';
 
 const Info = () => {
     return (
-        <div>
-            <h1>this is info</h1>
-        </div>
+        <section className="row p-4 bg-light">
+            <div className="col-md-6">
+                <UserList></UserList>
+            </div>
+            <div className="col-md-6">
+                <AlbumList></AlbumList>
+            </div>
+        </section>
     );
 };
 
